@@ -1,4 +1,3 @@
-package Test;
 import java.sql.*;
 import java.util.Scanner;
 
@@ -9,7 +8,7 @@ public class jdbcProject {
         	Class.forName("com.mysql.cj.jdbc.Driver");
         	String url = "jdbc:mysql://localhost:3306/my_db";
             String usr = "root";
-            String password = "Sneha@1342001";
+            String password = "Sneha@142";
             Connection connection = DriverManager.getConnection(url, usr, password);
             Scanner sc = new Scanner(System.in);
             System.out.println("Employee Management System");
