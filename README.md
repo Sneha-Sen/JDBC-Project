@@ -1,4 +1,4 @@
-JDBC Project
+Employee Management System using JDBC
 
 Overview:
 This project demonstrates the basic usage of Java Database Connectivity (JDBC) to interact with a MySQL database. 
