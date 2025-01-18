@@ -6,9 +6,9 @@ public class jdbcProject {
 	
         try{
         	Class.forName("com.mysql.cj.jdbc.Driver");
-        	String url = "jdbc:mysql://localhost:3306/my_db";
+        	String url = "jdbc:mysql://localhost:3306/db_name";
             String usr = "root";
-            String password = "Sneha@142";
+            String password = "password";
             Connection connection = DriverManager.getConnection(url, usr, password);
             Scanner sc = new Scanner(System.in);
             System.out.println("Employee Management System");
